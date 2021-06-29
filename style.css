@@ -40,6 +40,9 @@ body {
   z-index: -1;
 }
 
+#text {
+  font-size: 20px;
+}
 .gradient-circle {
   background: conic-gradient(
     #55b7a4 0%,
