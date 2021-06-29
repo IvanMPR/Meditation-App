@@ -8,14 +8,14 @@ const holdTime = animationTime / 5;
 relaxer();
 
 function relaxer() {
-  text.textContent = 'Breathe In!';
+  text.textContent = 'Inhale !';
   container.className = 'container bubble';
 
   setTimeout(() => {
     text.textContent = 'Hold';
 
     setTimeout(() => {
-      text.textContent = 'Breathe Out!';
+      text.textContent = 'Exhale !';
       container.className = 'container shrink';
     }, holdTime);
   }, breathingTime);
